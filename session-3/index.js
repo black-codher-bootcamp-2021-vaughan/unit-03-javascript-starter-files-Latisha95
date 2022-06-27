@@ -30,3 +30,11 @@ function conversation() {
 }
 
 conversation();
+
+function futureAge(name, currentAge) {
+    const ageInFive = currentAge + 5;
+    return "Hi " + name + "You will be " + ageInFive + "in 5 years"
+    }
+
+console.log("Hi "+ futureAge("Latisha", 26));
+    
