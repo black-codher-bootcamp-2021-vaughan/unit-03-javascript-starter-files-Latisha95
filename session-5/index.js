@@ -75,3 +75,51 @@ function getGrade(total) {
     };
     
     console.log(getGrade(27))
+
+// Task 2 Switch Function
+
+function getGradeSwitch(total) {
+    let message = "Your grade is";
+
+    switch (total > 0) {
+        case total > 90:
+            message = "Your grade is A+";
+            break;
+                
+        case total > 80 && total <= 90:
+            message = "Your grade is A";
+            break;
+
+        case total > 70 && total <= 80:
+            message = "Your grade is B";
+            break;
+
+        case total > 60 && total <= 70:
+            message = "Your grade is C";
+            break; 
+
+        case total > 50 && total <= 60:
+            message = "Your grade is D";
+            break; 
+
+        case total > 40 && total <= 50:
+            message = "Your grade is E";
+            break; 
+
+        case total > 30 && total <= 40:
+            message = "Your grade is F";
+            break;  
+
+        case total < 30:
+            message = "Fail";
+            break; 
+
+        default:
+            message = "Unable to identify grade";
+            break;
+    }
+
+    return message;
+}
+
+console.log("getGradeSwitch",getGradeSwitch(75));
