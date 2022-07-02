@@ -31,7 +31,7 @@ console.log(personA.name);
 
 function biography(person) {
 
-    return "Hi, my name is " + person.name + " I am " + person.age + " years old, " + " i live in " + person.location " and i like " + person.likes
+    return "Hi, my name is " + person.name + " I am " + person.age + " years old, " + " i live in " + person.location "and i like " + person.likes;
 };
 
 console.log(biography(personA));
@@ -97,31 +97,35 @@ const personA = {
 
  const addition = x + y;
 
- console.log("Addition: x + y " + addition);
+ console.log("Addition: x + y " + addition); // Addition: x + y = 10
 
  const subtraction = x - y;
 
- console.log("Subtraction: x - y " + subtraction);
+ console.log("Subtraction: x - y " + subtraction); // Subtraction: x - y = 2
 
  const multiplication = x * y;
 
- console.log("multiplication: x * y " + multiplication);
+ console.log("Multiplication: x * y " + multiplication); // Multiplication: x * y = 24
 
  const division = x / y;
 
- console.log("Division: x / y " + division);
+ console.log("Division: x / y " + division); // Division: x / y = 1.5
 
- const multiplication = x * x;
+ const multiplication2 = x * x;
 
- console.log("multiplication: x * x " + multiplication);
+ console.log("Multiplication2: x * x " + multiplication2); //Multiplication: x * x = 36
 
- const addition = x + x + y;
+ const addition2 = x + x + y;
 
- console.log("addition: x + x + y " + addition);
+ console.log("Adiition2: x + x + y " + addition2); // Addition: x + x + y = 16
 
  const sum = x * y / x;
 
- console.log("sum: x * y / x " + sum);
+ console.log("Sum: x * y / x " + sum); // Sum x * y / x = 4
+
+
+
+ 
 
 
 
